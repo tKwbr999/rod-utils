@@ -37,10 +37,10 @@ func PageElement(p *rod.Page, selector string) (*rod.Element, error) {
 	return elem, nil
 }
 
-// PageElementMustVisible finds the first element matching the selector in the page and waits for it to be visible.
+// PageElementVisible finds the first element matching the selector in the page and waits for it to be visible.
 // It returns the element and an error, if any.
 // If the element is not found or not visible, it returns an error.
-func PageElementMustVisible(p *rod.Page, selector string) (*rod.Element, error) {
+func PageElementVisible(p *rod.Page, selector string) (*rod.Element, error) {
 	if p == nil {
 		return nil, fmt.Errorf("rod.Page is nil")
 	}
