@@ -9,5 +9,5 @@ It includes code to improve the problems during Rod operation.
 ## Installation
 
 ```bash
-go get github.com/yourusername/rod-utils
+go get github.com/tKwbr999/rod-utils
 ```
