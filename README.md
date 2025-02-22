@@ -1,12 +1,12 @@
 # rod-utils
 Simplified Utilities for Rod in Go
 
-## 概要
-このリポジトリは、Go言語で利用できるWebスクラピングライブラリ「Rod」の簡略化されたユーティリティ集です。
+## Overview
+This repository is a collection of simplified utilities for the web scraping library "Rod" available in Go.
 
-Rod運用時の問題点を改善するためのコードを盛り込んでいます。
+It includes code to improve the problems during Rod operation.
 
-## インストール
+## Installation
 
 ```bash
 go get github.com/yourusername/rod-utils
